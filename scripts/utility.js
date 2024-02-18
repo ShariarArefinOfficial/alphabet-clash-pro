@@ -41,3 +41,9 @@ function getArandomAlphabet(){
 
 }
 
+function getAlphabetForGameOver(elementID){
+    const getELement=document.getElementById(elementID);
+    const text=getELement.innerText;
+    return text;
+}
+
