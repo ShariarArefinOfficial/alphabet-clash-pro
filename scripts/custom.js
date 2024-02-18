@@ -9,10 +9,14 @@ function keyboardButtonPress(event){
     //get expected to press
     const currentAlphabet=document.getElementById('current-alphabet').innerText.toLowerCase();
 
-//Stop the game if pressed escape
-if(playerPressed==='Escape'){
+
+    //Stop the game if pressed escape
+
+    if(playerPressed==='Escape'){
     gameOver();
-}
+
+
+    }
 
 
 
